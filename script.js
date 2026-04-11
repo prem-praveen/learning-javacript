@@ -77,7 +77,7 @@ const c=10;
 //c=30;      // we can reassign a new value to 'a'
 
 console.log(c);
-arr
+
 
 
 // Arrays in js
@@ -95,3 +95,10 @@ let arr2=[10, 20, 30, 40, 50];
 for(let i=0;i<arr2.length;i++){
     console.log(arr2[i]);
 }
+
+arr2.push(60) // data like integer, string , boolean, null adds at index 5
+arr2.pop();  // removes the last element
+arr2.pop(100); // if we pass an argument, it will be ignored
+
+arr2.shift(); // removes the first element
+arr2.unshift(5); // adds an element to the beginning
