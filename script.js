@@ -89,3 +89,9 @@ let arr=[10, 2.25,"Hello", true, null];
 for(let i=0;i<arr.length;i++){
     console.log(typeof arr[i] + "   "+arr[i]);
 }       
+
+let arr2=[10, 20, 30, 40, 50];
+
+for(let i=0;i<arr2.length;i++){
+    console.log(arr2[i]);
+}
