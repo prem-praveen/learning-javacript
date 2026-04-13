@@ -1,6 +1,7 @@
 console.log("Hey hai")
 
 /*
+/*
 var a=10
 var b=20
 
@@ -47,7 +48,7 @@ if(c==2){
   num++;
 }
 
-*/
+
 
 
 // types of variables
@@ -84,21 +85,47 @@ console.log(c);
 
 // Dynamic in nature stores multiple values and different data types in a single variable
 
-let arr=[10, 2.25,"Hello", true, null];
+// let arr=[10, 2.25,"Hello", true, null];
 
-for(let i=0;i<arr.length;i++){
-    console.log(typeof arr[i] + "   "+arr[i]);
-}       
+// for(let i=0;i<arr.length;i++){
+//     console.log(typeof arr[i] + "   "+arr[i]);
+// }       
 
-let arr2=[10, 20, 30, 40, 50];
+// let arr2=[10, 20, 30, 40, 50];
 
-for(let i=0;i<arr2.length;i++){
-    console.log(arr2[i]);
-}
+// for(let i=0;i<arr2.length;i++){
+//     console.log(arr2[i]);
+// }
 
-arr2.push(60) // data like integer, string , boolean, null adds at index 5
-arr2.pop();  // removes the last element
-arr2.pop(100); // if we pass an argument, it will be ignored
+// arr2.push(60) // data like integer, string , boolean, null adds at index 5
+// arr2.pop();  // removes the last element
+// arr2.pop(100); // if we pass an argument, it will be ignored
 
-arr2.shift(); // removes the first element
-arr2.unshift(5); // adds an element to the beginning
+// arr2.shift(); // removes the first element
+// arr2.unshift(5); // adds an element to the beginning
+*/
+
+//Object Creation 
+
+// const obj={
+//     id : 101,
+//     name : "Praveen",
+//     arr :[10,20,"name",true]
+// }
+
+
+// console.log(obj.loc);
+// obj.loc="hyd"
+
+// console.log(obj);
+
+
+const user=[{id:101,name:"guest1",loc:"hyd"},{id:102,name:"guest2",loc:"Monali"}]
+
+console.log(user);
+console.log(user[0]);
+console.log(user[0].id+" "+user[0].name+" "+user[0].loc);
+
+
+
+
