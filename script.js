@@ -175,15 +175,41 @@ console.log(c);
 
 
 
-let name ="Praveen"
-let age=23;
+// let name ="Praveen"
+// let age=23;
 
-// ${} Interpolation
-//`` -> backstick symbol
+// // ${} Interpolation
+// //`` -> backstick symbol
 
 
-console.log("name = "+name+" age = "+age);
-console.log(`my name is ${name}. she is ${age}`);
+// console.log("name = "+name+" age = "+age);
+// console.log(`my name is ${name}. she is ${age}`);
+
+
+// DOM -> DOCUMENT OBJECT MODEL
+
+// console.log(document);// print whole html page
+
+
+// let id =document.getElementById(101)
+
+
+// id.innerText="<b>hello</b>"
+// id.innerHTML="<b>hello</b>"
+
+// let buch=document
+
+
+let box=document.getElementsByClassName("Box")
+
+let para=document.getElementsByClassName("para")
+
+box[1].innerHTML="box changed"
+para[0].innerHTML="para changed"
+
+
+
+
 
 
 
