@@ -180,6 +180,8 @@ let age=23;
 
 // ${} Interpolation
 //`` -> backstick symbol
+
+
 console.log("name = "+name+" age = "+age);
 console.log(`my name is ${name}. she is ${age}`);
 
