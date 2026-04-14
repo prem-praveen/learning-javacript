@@ -120,12 +120,68 @@ console.log(c);
 // console.log(obj);
 
 
-const user=[{id:101,name:"guest1",loc:"hyd"},{id:102,name:"guest2",loc:"Monali"}]
+// const user=[{id:101,name:"guest1",loc:"hyd"},{id:102,name:"guest2",loc:"Monali"}]
 
-console.log(user);
-console.log(user[0]);
-console.log(user[0].id+" "+user[0].name+" "+user[0].loc);
+// console.log(user);
+// console.log(user[0]);
+// console.log(user[0].id+" "+user[0].name+" "+user[0].loc);
 
+
+// functipon craetion
+
+// 
+
+// function add(a,b){
+//     return a+b;
+// }
+// console.log(add(10,"hi")) //10hi
+// console.log(add(10,20)) //30
+
+
+// const myFun=function (a,b){   //This is called anonomoys fun means fu without name
+//     return a+b;
+// }
+
+// console.log(myFun(10,20));
+
+//calactor using switch case
+
+// function calc(a,b,op){
+//    switch(op){
+//         case '+':
+//             return a+b;
+//         case '-':
+//             return a-b;
+//         case '*':
+//             return a*b;
+//         case '/':
+//             return a/b;
+
+//         case '%':
+//             return a%b;
+
+//         case '**':
+//             return a**b;
+//    }
+
+// }
+
+// console.log("addtion of 10 & 2 is = "+calc(10,2,'+'));
+// console.log("subtraction of 10 & 2 is = "+calc(10,2,'-'));
+// console.log("multiplication of 10 & 2 is = "+calc(10,2,'*'));
+// console.log("Division of 10 & 2 is = "+calc(10,2,'/'));
+// console.log("Module of 10 & 2 is = "+calc(10,2,'%'));
+// console.log("pow of 10 & 2 is = "+calc(10,2,'**'));
+
+
+
+let name ="Praveen"
+let age=23;
+
+// ${} Interpolation
+//`` -> backstick symbol
+console.log("name = "+name+" age = "+age);
+console.log(`my name is ${name}. she is ${age}`);
 
 
 
